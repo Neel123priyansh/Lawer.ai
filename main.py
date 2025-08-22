@@ -18,7 +18,7 @@ question = st.text_input("Question")
 
 
 if st.button("Ask"):
-    if question:
+    if question: 
         response = requests.post(API_URL, json={"query": question})
         answer = response.json().get("answer", "Error")
         st.header("Answer:")
