@@ -7,7 +7,7 @@ st.title("LLM Based QABot")
 btn = st.button("Create KnowledgeBase")
 if btn:
     pass
-
+ 
 question = st.text_input("Question")
 
 # if question:
