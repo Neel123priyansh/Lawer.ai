@@ -15,7 +15,7 @@ question = st.text_input("Question")
 #     response = chain(question)
 #     st.header("Answer: ")
 #     st.write(response["result"]) 
-
+ 
 
 if st.button("Ask"):
     if question: 
