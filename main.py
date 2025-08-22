@@ -6,7 +6,7 @@ API_URL = "https://f52c519fa4fc.ngrok-free.app/ask"
 st.title("LLM Based QABot")
 btn = st.button("Create KnowledgeBase")
 if btn:
-    pass
+    pass 
  
 question = st.text_input("Question")
 
