@@ -14,7 +14,7 @@ question = st.text_input("Question")
 #     chain = get_qa_chain()
 #     response = chain(question)
 #     st.header("Answer: ")
-#     st.write(response["result"])
+#     st.write(response["result"]) 
 
 
 if st.button("Ask"):
